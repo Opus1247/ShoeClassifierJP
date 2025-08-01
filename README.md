@@ -6,3 +6,5 @@ Based on the [Popular Sneakers Classification dataset]([url](https://www.kaggle.
 1. Jetson Orin Nano
 2. Models
 3. Dataset
+4. NET=models/sneakers_dataset
+DATASET=data/sneakers_dataset
