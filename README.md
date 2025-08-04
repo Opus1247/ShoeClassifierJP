@@ -15,6 +15,7 @@ Based on the [Popular Sneakers Classification dataset]([url](https://www.kaggle.
 2. Clone the repository: git clone https://Opus1247/ShoeClassifierJP.git cd sneakers-dataset
 3. Install requirements: pip3 install -r requirements.txt
 4. Project structure
+
 .
 ├── models/
 │   └── sneakers-dataset/
@@ -23,5 +24,6 @@ Based on the [Popular Sneakers Classification dataset]([url](https://www.kaggle.
 │       └── test/ │           └── 002.jpg             ← test image
 ├── onnx_export.py
 ├── README.md
-5. Optional - python3 onnx_export.py --model-dir=models/sneakers-dataset
-6. Run with imagenet: imagenet.py \ --model=models/sneakers-dataset/resnet18.onnx \ --input_blob=input_0 \ --output_blob=output_0 \ --labels=models/sneakers-dataset/labels.txt \ models/sneakers-dataset/test/002.jpg Or just use the source files
+
+6. Optional - python3 onnx_export.py --model-dir=models/sneakers-dataset
+7. Run with imagenet: imagenet.py \ --model=models/sneakers-dataset/resnet18.onnx \ --input_blob=input_0 \ --output_blob=output_0 \ --labels=models/sneakers-dataset/labels.txt \ models/sneakers-dataset/test/002.jpg Or just use the source files
