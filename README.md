@@ -30,3 +30,4 @@ ShoeClassifierJP/
 └── README.md
 6. Optional - python3 onnx_export.py --model-dir=models/sneakers-dataset
 7. Run with imagenet: imagenet.py \ --model=models/sneakers-dataset/resnet18.onnx \ --input_blob=input_0 \ --output_blob=output_0 \ --labels=models/sneakers-dataset/labels.txt \ models/sneakers-dataset/test/002.jpg Or just use the source files
+<img width="362" height="297" alt="Screenshot 2025-08-04 at 7 41 29 PM" src="https://github.com/user-attachments/assets/9814f552-bf46-4c84-b508-610260529339" />
