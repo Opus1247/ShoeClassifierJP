@@ -34,4 +34,4 @@ ShoeClassifierJP/
 <img width="362" height="297" alt="Screenshot 2025-08-04 at 7 41 29 PM" src="https://github.com/user-attachments/assets/9814f552-bf46-4c84-b508-610260529339" />
 
 # Video
-https://drive.google.com/drive/folders/1AviP5VhMQUt-Nx03oY9V7AFZjQbYAhdP?usp=sharing
+https://drive.google.com/file/d/1YD3CuXW8fPsXZD1A18fgIq7nOFjb_E5K/view?usp=sharing
