@@ -17,13 +17,16 @@ Based on the [Popular Sneakers Classification dataset]([url](https://www.kaggle.
 4. Project structure
 
 .
+ShoeClassifierJP/
 ├── models/
 │   └── sneakers-dataset/
-│       ├── resnet18.onnx           ← exported ONNX model
-│       ├── labels.txt              ← class labels
-│       └── test/ │           └── 002.jpg             ← test image
+│       ├── resnet18.onnx         # Exported ONNX model
+│       ├── labels.txt            # Class labels
+│       └── test/
+│           └── 002.jpg           # Test image
 ├── onnx_export.py
-├── README.md
-
+├── imagenet.py
+├── requirements.txt
+└── README.md
 6. Optional - python3 onnx_export.py --model-dir=models/sneakers-dataset
 7. Run with imagenet: imagenet.py \ --model=models/sneakers-dataset/resnet18.onnx \ --input_blob=input_0 \ --output_blob=output_0 \ --labels=models/sneakers-dataset/labels.txt \ models/sneakers-dataset/test/002.jpg Or just use the source files
