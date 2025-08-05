@@ -10,6 +10,9 @@ Based on the [Popular Sneakers Classification dataset]([url](https://www.kaggle.
 3. Dataset - https://www.kaggle.com/datasets/nikolasgegenava/sneakers-classification
 4. NET=models/sneakers_dataset DATASET=data/sneakers_dataset 5. Internet connection
 
+# Running this project (assumes you have everything downloaded and set up)
+imagenet.py --model=model/sneakers-dataset/resnet18.onnx -- input_blob=input_0 --output_blob=output_0 --labels=models/sneakers-dataset/labels.txt [image]
+
 # Steps 
 1. SSH into Jetson: ssh username@<jetson-ip-address>
 2. Clone the repository: git clone https://Opus1247/ShoeClassifierJP.git cd sneakers-dataset
